@@ -13,9 +13,15 @@
   },
   "module_name": "folly",
   "dependencies": {
-    "boost-for-react-native": [],
-    "DoubleConversion": [],
-    "glog": []
+    "boost-for-react-native": [
+
+    ],
+    "DoubleConversion": [
+
+    ],
+    "glog": [
+
+    ]
   },
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1",
   "source_files": [
@@ -29,7 +35,11 @@
     "folly/portability/BitsFunctexcept.cpp",
     "folly/detail/MallocImpl.cpp"
   ],
-  "preserve_paths": ["folly/*.h", "folly/detail/*.h", "folly/portability/*.h"],
+  "preserve_paths": [
+    "folly/*.h",
+    "folly/detail/*.h",
+    "folly/portability/*.h"
+  ],
   "libraries": "stdc++",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "NO",
