@@ -175,6 +175,12 @@
         ],
         "Folly": [
           "2016.10.31.00"
+        ],
+        "DoubleConversion": [
+          "1.1.6"
+        ],
+        "glog": [
+          "0.3.5"
         ]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1",
