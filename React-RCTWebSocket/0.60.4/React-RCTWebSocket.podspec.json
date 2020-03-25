@@ -19,7 +19,6 @@
     "Libraries/fishhook/*.{h,c}"
   ],
   "preserve_paths": [
-    "package.json",
     "LICENSE",
     "LICENSE-docs"
   ],
