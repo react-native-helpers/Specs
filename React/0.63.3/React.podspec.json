@@ -15,7 +15,6 @@
     "tag": "v0.63.3"
   },
   "preserve_paths": [
-    "package.json",
     "LICENSE",
     "LICENSE-docs"
   ],
